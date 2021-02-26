@@ -15,6 +15,7 @@ print()
 # todo put words in list
 test_list = ['a', 'b', 'c', 'jammy', 'baseball', 'tel', 'tele']
 substring_list = ['shit', 'ass', 'jam', 'base', 'tele']
+word_count_thing = 0
 word_count_shit = 0
 word_count_ass = 0
 word_count_jam = 0
@@ -47,7 +48,9 @@ print('shit: ', word_count_shit)
 print('ass: ', word_count_ass)
 print('jam: ', word_count_jam)
 print('base: ', word_count_base)
-print('tele: ', word_count_base)
+print('tele: ', word_count_tele)
+assert(word_count_shit + word_count_ass + word_count_jam + word_count_base + word_count_tele == word_count_thing)
+
 # todo count number of matches per word in substring_list
 	
 # todo walk through setup of git repo, then github
