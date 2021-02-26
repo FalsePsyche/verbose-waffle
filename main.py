@@ -40,7 +40,6 @@ for english_word in english_dict:
 					word_count_base = word_count_base + 1
 				if word == 'tele':
 					word_count_tele = word_count_tele + 1
-		# else:
 		# print(word, ' does not match', english_word)
 print(word_count_thing)
 print()
