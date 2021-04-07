@@ -5,7 +5,7 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print("Get a blanket.\n")
 
 
-print("We can just five the function numbers directly:")
+print("We can just give the function numbers directly:")
 cheese_and_crackers(20, 30)
 
 
