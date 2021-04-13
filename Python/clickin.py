@@ -19,11 +19,14 @@ def mister_on():
 def get_time():
 	return datetime.now().time()
 
-while get_time().hour > 7 and get_time().hour < 9:
-	mister_on()
 
-while get_time().hour > 10 and get_time().hour < 12:
-	mister_on()
+while(True):
+	while get_time().hour > 7 and get_time().hour < 9:
+		mister_on()
 
-while get_time().hour > 14 and get_time().hour < 16:
-	mister_on()
+	while get_time().hour > 10 and get_time().hour < 12:
+		mister_on()
+
+	while get_time().hour > 14 and get_time().hour < 16:
+		mister_on()
+
